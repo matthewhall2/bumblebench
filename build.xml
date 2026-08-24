@@ -195,7 +195,7 @@ execute a build.
 		      includeantruntime="false">
 		</javac>
 
-		<!-- arrays (ArraysMismatch benchmarks — requires --add-exports java.base/jdk.internal.util=ALL-UNNAMED) -->
+		<!-- arrays (ArraysMismatch benchmarks — requires -add-exports java.base/jdk.internal.util=ALL-UNNAMED) -->
 		<javac srcdir="${src-arrays}"
 		      debug="on"
 		      destdir=""
